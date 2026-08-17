@@ -25,7 +25,7 @@ const Sidebar = () => {
     setUsername(dummyProfileData.firstName + " " + dummyProfileData.lastName);
   }, []);
 
-  const role = "" || "EMPLOYEE";
+  const role = "ADMIN" || "EMPLOYEE";
 
   const navItems = [
     { name: "Dashboard", href: "/dashboard", icon: LayoutGridIcon },
